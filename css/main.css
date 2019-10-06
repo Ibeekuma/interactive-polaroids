@@ -36,3 +36,25 @@ html {
   top: 6em;
 
 }
+
+.polaroid:nth-child(3) {
+  transform: rotate(32deg);
+  z-index: 2;
+  left: 24em;
+  top: 6.5em;
+
+}
+
+.polaroid:hover {
+  z-index: 4;
+  transform: rotate(0deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .9);
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg);
+  z-index: 3;
+  left: 17em;
+  top: 10em;
+
+}
