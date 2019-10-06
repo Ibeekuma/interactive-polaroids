@@ -26,7 +26,7 @@ html {
   text-align: center;
   position: absolute;
   left: 5em;
-  bottom: 1em
+  bottom: 1em;
 }
 
 .polaroid:nth-child(1) {
@@ -34,7 +34,6 @@ html {
   z-index: 1;
   left: 12em;
   top: 6em;
-
 }
 
 .polaroid:nth-child(3) {
@@ -42,7 +41,6 @@ html {
   z-index: 2;
   left: 24em;
   top: 6.5em;
-
 }
 
 .polaroid:hover {
@@ -56,5 +54,4 @@ html {
   z-index: 3;
   left: 17em;
   top: 10em;
-
 }
