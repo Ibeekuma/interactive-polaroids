@@ -28,3 +28,11 @@ html {
   left: 5em;
   bottom: 1em
 }
+
+.polaroid:nth-child(1) {
+  transform: rotate(-10deg);
+  z-index: 1;
+  left: 12em;
+  top: 6em;
+
+}
