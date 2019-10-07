@@ -40,7 +40,7 @@ html {
   transform: rotate(32deg);
   z-index: 2;
   left: 24em;
-  top: 6.5em;
+  top: 6em;
 }
 
 .polaroid:hover {
