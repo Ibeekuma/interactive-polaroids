@@ -53,5 +53,18 @@ html {
 .polaroid:hover {
   z-index: 4;
   transform: rotate(0deg);
-  box-shadow: 5px 4px 10px rgba(0, 0, 0, .7);
+  box-shadow: 5px 4px 10px black;
+}
+
+figure:first-of-type:hover,
+figure:last-of-type:hover,
+figure:nth-child(2):hover {
+  z-index: 100;
+}
+
+figure:nth-child(2) {
+  z-index: 3;
+  top: 150px;
+  left: 290px;
+  transform: rotate(7deg);
 }
